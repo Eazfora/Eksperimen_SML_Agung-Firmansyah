@@ -4,9 +4,9 @@ on:
   push:
     branches: [main]
     paths:
-      - 'student_performance_raw.csv'
+      -'preprocessing\student_performance_preprocessing\student_performance_preprocessed.csv'
       - 'preprocessing/automate_Agung-Firmansyah.py'
-  workflow_dispatch:   # manual trigger
+  workflow_dispatch:  
 
 jobs:
   preprocessing:
